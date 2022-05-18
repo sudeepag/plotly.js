@@ -19,7 +19,7 @@ var Drawing = require('../components/drawing');
 var Color = require('../components/color');
 var initInteractions = require('../plots/cartesian/graph_interact').initInteractions;
 var xmlnsNamespaces = require('../constants/xmlns_namespaces');
-var clearSelect = require('../components/selections/select').clearSelect;
+var clearSelect = require('../components/selections').clearSelect;
 
 var dfltConfig = require('./plot_config').dfltConfig;
 var manageArrays = require('./manage_arrays');
