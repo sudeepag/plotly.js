@@ -453,7 +453,7 @@ function mouseoverPath(d) {
                     trace: trace,
                     x: hoverCenterX - rootBBox.left + graphDivBBox.left,
                     y: hoverCenterY - rootBBox.top + graphDivBBox.top,
-                    text: hovertext,
+                    text: trace._input.hoverdata[d.key],
                     color: d.model.color,
                     borderColor: 'black',
                     fontFamily: 'Monaco, "Courier New", monospace',
